@@ -2,7 +2,4 @@
 
 read -p "Tekst: " tekst
 
-echo
-echo "Nynorsk: "
-
-echo $tekst | apertium nob-nno_e
+echo $tekst | apertium nob-nno_e | cilp.exe
